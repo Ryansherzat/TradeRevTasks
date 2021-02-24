@@ -78,7 +78,6 @@ public class Tasks {
     2.      Filter the Search results by City “Toronto, Ontario, Canada”
     3.      All the job results displayed should belong to “Toronto, Ontario, Canada” validate this.
      */
-
         @Test
         public  void scenario2() {
             driver.get("https://jobs.lever.co/traderev");
@@ -97,7 +96,6 @@ public class Tasks {
         }
         }
   ////////////////////////////////////////
-
 /*
 Scenario 3: check whether job filter (city) and (team) is working properly
 1.      Visit https://jobs.lever.co/traderev
@@ -137,7 +135,6 @@ Scenario 3: check whether job filter (city) and (team) is working properly
         }
 
     }
-
         // 4.     Finally log the total available positions listed
         @Test
     public  void scenario4() {
